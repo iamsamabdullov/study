@@ -7,7 +7,7 @@ def get_qrcode(url = 'www.vk.com', name = 'default'):
     return f'QR code was created! Open the {name}.png'
 
 def main():
-    print(get_qrcode(url='https://chatbot.theb.ai/#/chat/1002', name='chatbot'))
+    print(get_qrcode(url='https://vk.com', name='vk'))
 
 if __name__ == '__main__':
     main()

@@ -18,6 +18,6 @@ async def wait():
 async def queue(order, time_to):
     print("New order: ",order)
     await asyncio.sleep(time_to)
-    print(order + " is ready")
+    print(order + " is ready!")
 
 asyncio.run(wait())
